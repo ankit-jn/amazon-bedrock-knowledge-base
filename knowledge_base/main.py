@@ -112,15 +112,15 @@ def menu():
     """
 
     print("------------ Gen AI: Knowledge Base Hands-on ------------")
-    print("1. Create Vector Index in OSS Collection")
-    print("2. Upload Data in S3")
+    print("1. Upload Data in S3")
+    print("2. Create Vector Index in OSS Collection")
     print("3. Create Knowledge Base")
     print("4. Create Datasource in Knowledge Base")
     print("5. Ingestion in Datasource (Embedding generation)")
-    print("6. Test Knowledge Base (With RetrieveAndGenerate API)")
-    print("7. Test Knowledge Base (With Retrieve API)")
-    print("8. List Knowledge Bases")
-    print("9. List KB datasources")
+    print("6. List Knowledge Bases")
+    print("7. List KB datasources")
+    print("8. Test Knowledge Base (With RetrieveAndGenerate API)")
+    print("9. Test Knowledge Base (With Retrieve API)")
     print("10. Cleanup Resources")
 
     print("99. Exit")
@@ -142,9 +142,9 @@ def main():
 
     while choice != 99:
         if choice == 1:
-            create_vector_index()
-        elif choice == 2:
             upload_data()
+        elif choice == 2:
+            create_vector_index()
         elif choice == 3:
             create_knowledge_base()
         elif choice == 4:
@@ -152,13 +152,13 @@ def main():
         elif choice == 5:
             execute_ingestion_job()
         elif choice == 6:
-            test_kb_with_retrieve_and_generate()
-        elif choice == 7:
-            test_kb_with_retrieve()
-        elif choice == 8:
             operation.list_knowledge_bases()
-        elif choice == 9:
+        elif choice == 7:
             list_kb_datasources()
+        elif choice == 8:
+            test_kb_with_retrieve_and_generate()
+        elif choice == 9:
+            test_kb_with_retrieve()
         elif choice == 10:
             cleanup()
         else:
