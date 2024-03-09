@@ -1,6 +1,6 @@
-## ARJ-Stack: Amazon Bedrock in Action
+## ARJ-Stack: Amazon Bedrock - KnowledgeBase to implement RAG workflow
 
-This repository is a walkthrough (along with code) for the usage of knowledge Base and OpenSearch Serverless through Amazon bedrock Service.
+This repository is a walkthrough (along with code) for the usage of knowledge Base with Amazon bedrock Service and Amazon OpenSearch Serverless to implement Retrieval Augmented Generation (RAG) workflow, for generating more relevant, accurate and customized responses using private data sources.
 
 ### Requirements
 
@@ -90,7 +90,7 @@ The following resources will be provisioned in `us-east-1` AWS region as an outc
 ---
 We have collected reference material regarding Hydrogen energey as a reference for setting up contexts and put it in [data](https://github.com/ankit-jn/amazon-bedrock-knowledge-base/tree/main/data) folder
 
-- I would like to thank the authors of the above reference materials.This is to bring in notice that we are not using these reference material for any monetary purpose. It is just for the eductional use of showing how the documents can be used to set the context for generating relevant responses using RAG.
+- I would like to thank the authors of the above reference materials.This is to bring in notice that we are not using these reference material for any monetary purpose. It is just for the eductional use of showing how the documents can be used to set the context for generating relevant responses using RAG workflow.
 
 ### Authors
 
